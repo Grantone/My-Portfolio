@@ -1,0 +1,347 @@
+body{
+  background-color: #DAE9E6;
+}
+
+.navbar-header{
+  color: white;
+  font-family: 'Playball', cursive;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  float: left;
+
+}
+
+.starter_container {
+    margin-top: -21px;
+    padding: 0;
+    min-width: 100%;
+    height: 500px;
+    background-image: url('../assets/img/bg-header.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.follow_container {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+.starter_follow {
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0;
+}
+.top-title{
+    color: white;
+    font-family: 'Playball', cursive;
+    font-size: 100px;
+    font-weight: 350;
+    text-align: center;
+    float: left;
+
+
+ }
+ .desc-text{
+   font-weight: 400;
+   font-size: 20px;
+   font-family: 'Josefin Sans', sans-serif;
+   text-transform: capitalize;
+   color: #333;
+   float: left;
+
+ }
+ .goodF-text{
+   font-weight: 400;
+   font-size: 25px;
+   font-family: 'Playball', cursive;
+   text-transform: capitalize;
+   color: #333;
+
+ }
+
+ .button{
+   border: 0;
+   margin: 0;
+   padding: 0;
+ }
+ .welcome-text{
+   color: #333;
+   font-family: 'Playball', cursive;
+   font-size: 50px;
+   font-weight: 100;
+   text-align: center;
+ }
+
+ .popular-text{
+   color: brown;
+   font-family: 'Playball', cursive;
+   font-size: 50px;
+   font-weight: 100;
+   text-align: center;
+ }
+
+ .inspiration{
+   color: brown;
+   font-family: 'Playball', cursive;
+   font-size: 50px;
+   font-weight: 100;
+   text-align: center;
+ }
+.second-title {
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: white;
+    float: left;
+
+}
+.simple{
+
+  font-size: 80px;
+  font-family: 'Fredericka the Great', cursive;
+  text-decoration-style: dashed;
+  color: brown;
+  text-decoration:
+
+}
+
+.carousel{
+  border-style:double;
+  border-color: white;
+}
+
+.carousel-top {
+  padding: 10px 0;
+  text-align: center;
+  padding-right: 0;
+  padding-top: 0;;
+}
+
+.inspire{
+margin-left: 40px;
+height:  560px;
+
+}
+  .item {
+    padding: 0px;
+    font-size: 40px;
+  }
+
+
+    .board{
+      position: absolute;
+      top: 45%;
+      left: 0;
+      width: 100%;
+      color: white;
+      margin: 0;
+      padding: 20px
+      font-family: 'Fredericka the Great', cursive;
+    }
+
+  h2 .image{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+
+  }
+  /*.thumbnail {
+      position: relative;
+
+  }*/
+  /*.thumbnail:hover{
+    /*opacity: 0.7;*/
+    /*font-size: 30px;
+    font-weight: 500;
+    font-family:cursive;
+    font-style: oblique;*/
+    /*background-color: #333;*/
+
+
+  /*}*/
+  .dinner{
+    background-image: url(../assets/img/dinner.jpg);
+    background-size: cover;
+  }
+  .breakfast{
+    background-image: url(../assets/img/breakfast.jpeg);
+    background-size: cover;
+  }
+  .lunch{
+    background-image: url(../assets/img/lunch.jpg);
+    background-size: cover;
+  }
+  .dessert{
+    background-image: url(../assets/img/dessert.jpeg);
+    background-size: cover;
+  }
+
+
+  .search{
+    width: 100%;
+  }
+  .caption {
+      position:relative;
+      top: 45%;
+      left: 0;
+      width: 100%;
+      font-style:italic;
+      font-weight: bolder;
+      margin: 0;
+      font-family: fantasy;
+      padding: 20px;
+      background-color: white;
+
+  }
+input[type=texts] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=texts]:focus {
+    width: 50%;
+}
+
+nav {
+    background: #1E1E1E !important;
+    font-size: 18px;
+    color: white !important;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    float: left;
+
+}
+
+.mid-body{
+  /*background-image: url('../assets/img/mid-bg.jpg');*/
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.item {
+  padding: 0px;
+  font-size: 40px;
+}
+
+.glyphicon-search {
+  float: right;
+}
+
+.container-subscribe {
+  /*background-color: #ff6e40;*/
+  background-image: url(../img/footer.jpg);
+  height: 350px;
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  /*background-repeat: no-repeat;*/
+}
+
+
+.text-email {
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  opacity: 0.25;
+  padding: 0.5em 8em 0.5em 0em;
+  border: 0.5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.footerlogos {
+  padding-top: 20px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets/img/bg-header.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    opacity: 0.8;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.glyphicon-search {
+  float: right;
+}
+
+.container-subscribe {
+  /*background-color: #ff6e40;*/
+  background-image: url(../assets/img/footer.jpg);
+  height: 350px;
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  /*background-repeat: no-repeat;*/
+}
+
+
+.text-email {
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  opacity: 0.25;
+  padding: 0.5em 8em 0.5em 0em;
+  border: 0.5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.footerlogos {
+  padding-top: 20px;
+
+}
+
+/*contact us form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
