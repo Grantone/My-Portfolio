@@ -1,5 +1,6 @@
 body{
   background-color: #DAE9E6;
+  /*background-image: url(../img/image1.jpg);*/
 }
 
 #image1 {
@@ -12,6 +13,32 @@ body{
   position: absolute;
   top: 0px;
 }
+
+
+
+#intro {
+  background-attachment: fixed;
+  background-image: url(../img/back3.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ico {
+  border-radius: 8px;
+}
+
+#meal {
+  border-radius: 8px;
+  text-align: center;
+}
+
+.h3 {
+  text-align: center;
+}
+
+
+
 
 .navbar-header{
   color: white;
