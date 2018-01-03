@@ -2,6 +2,12 @@ body{
   background-color: #DAE9E6;
 }
 
+#image1 {
+  margin-right: -150px;
+  width: 500px;
+  height: 400px;
+  float: right;
+}
 .navbar-header{
   color: white;
   font-family: 'Playball', cursive;
