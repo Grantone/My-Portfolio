@@ -1,5 +1,5 @@
 body{
-  background-color: #DAE9E6;
+  background-color: #fff;
   /*background-image: url(../img/image1.jpg);*/
 }
 
@@ -70,7 +70,7 @@ th, td {
    font-size: 50px;
    font-family: 'Fredericka the Great', cursive;
    text-decoration-style: dashed;
-   color: brown;
+   color: #17202A;
    text-decoration:
 
  }
