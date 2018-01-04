@@ -50,6 +50,30 @@ th, td {
     text-align: left;
 }
 
+.inspiration {
+   color: brown;
+   font-family: 'Playball', cursive;
+   font-size: 50px;
+   font-weight: 100;
+   text-align: center;
+ }
+
+ .simple {
+   font-size: 50px;
+   font-family: 'Fredericka the Great', cursive;
+   text-decoration-style: dashed;
+   color: brown;
+   text-decoration:
+
+ }
+
+
+
+
+
+
+
+
 
 .navbar-header{
   color: white;
@@ -133,13 +157,7 @@ th, td {
    text-align: center;
  }
 
- .inspiration{
-   color: brown;
-   font-family: 'Playball', cursive;
-   font-size: 50px;
-   font-weight: 100;
-   text-align: center;
- }
+
 .second-title {
     font-weight: 400;
     font-size: 30px;
@@ -147,15 +165,6 @@ th, td {
     text-transform: capitalize;
     color: white;
     float: left;
-
-}
-.simple{
-
-  font-size: 80px;
-  font-family: 'Fredericka the Great', cursive;
-  text-decoration-style: dashed;
-  color: brown;
-  text-decoration:
 
 }
 
