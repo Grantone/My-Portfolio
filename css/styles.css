@@ -1,17 +1,19 @@
 body{
-  background-color: #DAE9E6;
-  /*background-image: url(../img/image1.jpg);*/
+  background-color: #fff;
 }
 
 #image1 {
-  margin-right: -0px;
-  width: 309px;
-  height: 300px;
+  margin-right: -500px;
+  width: 400px;
+  height: 280px;
   float: right;
+  image-height: 300px;
 }
-#poz {
+#pozy {
   position: absolute;
   top: 0px;
+  background-image: url(../img/background1.jpe
+    g);
 }
 
 
@@ -43,6 +45,7 @@ h3 {
 
 #skilla {
   background-color: #90A4AE;
+  height: 660px;
 }
 
 h2 {
@@ -59,7 +62,7 @@ th, td {
 }
 
 .inspiration {
-   color: brown;
+   color: black;
    font-family: 'Playball', cursive;
    font-size: 50px;
    font-weight: 100;
@@ -67,13 +70,79 @@ th, td {
  }
 
  .simple {
-   font-size: 50px;
+   font-size: 30px;
    font-family: 'Fredericka the Great', cursive;
    text-decoration-style: dashed;
-   color: brown;
+   color: #17202A;
    text-decoration:
 
  }
+ .fork:hover{
+   transform: scale(2.0);
+   transition: 1000ms
+ }
+.fork{
+  transition: 1000ms
+}
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+ }
+
+ li {
+     float: left;
+ }
+
+ li a, .dropbtn {
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ li a:hover, .dropdown:hover .dropbtn {
+     background-color: red;
+ }
+
+ li.dropdown {
+     display: inline-block;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+ }
+
+ .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: center;
+ }
+
+ .dropdown-content a:hover {background-color: #f1f1f1}
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+#contac {
+  height: 660px;
+}
+
+#index {
+  height: 660px;
+}
 
 
 
