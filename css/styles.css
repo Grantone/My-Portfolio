@@ -1,13 +1,13 @@
 body{
   background-color: #fff;
-  /*background-image: url(../img/image1.jpg);*/
 }
 
 #image1 {
-  margin-right: -350px;
-  width: 309px;
-  height: 300px;
+  margin-right: -450px;
+  width: 100%;
+  height: 280px;
   float: right;
+  image-height: 300px;
 }
 #pozy {
   position: absolute;
@@ -45,6 +45,7 @@ h3 {
 
 #skilla {
   background-color: #90A4AE;
+  height: 660px;
 }
 
 h2 {
@@ -135,9 +136,13 @@ th, td {
      display: block;
  }
 
+#contac {
+  height: 660px;
+}
 
-
-
+#index {
+  height: 660px;
+}
 
 
 
