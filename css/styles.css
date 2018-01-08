@@ -16,7 +16,9 @@ body{
     g);
 }
 
-
+#back {
+  background-image: url(../img/photo1.jpg)
+}
 
 #intro {
   background-attachment: fixed;
