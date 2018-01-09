@@ -6,6 +6,9 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
@@ -100,21 +103,38 @@
               <a href="http://good-food.netlify.com/">Deployed Link</a>
 
             </div>
-            <!-- <h2></h2>
-            <p></p>
-
-            <div class="dropdown">
-              <img src="img/foodicon.jpg" class="fork" alt="GoodFood" width="200" height="200">
-              <div class="dropdown-content">
-                <img src="img/foodicon.jpg" alt="GoodFood" width="200" height="200">
-                <div class="desc">GoodFood</div>
+            <div class="modal fade" id="exampleModal" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" height="90px" width="650px">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header"> <br>
+                    <h5 class="modal-title" id="exampleModalLabel">Goodfood</h5>
+                  </div> <br>
+                  <div class="modal-body">
+                    <img src="img/goodfood.png" title="Technologies used: Ember, Firebase, GoogleMap, Twitter API" rel="prettyPhoto" width="550" class="img-responsive">
+                    <h3>This is a simple web application that allows users to know how to make quick meals at ease.</h3>
+                    <h2><a href="">View Site</a></h2>
+                  </div>
+                  <div class=" modal-footer ">
+                    <p>Technologies used: Ember, Firebase, GoogleMap, Twitter API</p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                  </div>
+                </div>
               </div>
-            </div> -->
+            </div>
+
           </div>
         </div>
 
       </div>
+      <br>
+      <br>
     </div>
+
+    <br>
+    <br>
+    <br>
     <div class="container">
 
       <div class="row" id="skilla">
@@ -226,3 +246,11 @@
 </body>
 
 </html>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
+          <img src="img/projects/traft.png" class="img-responsive" alt="Traffic Tracker" height="250" width="250">
+          <h4>Traffic Tracker</h4>
+          </button>
+
+<!-- Modal -->
