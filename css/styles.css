@@ -16,8 +16,9 @@ body{
     g);
 }
 
-#back {
-  background-image: url(../img/photo1.jpg)
+#bakimage {
+  background-color: #EEE5E9;
+  background-image: url(../img/back1.jpg)
 }
 
 #intro {
@@ -55,21 +56,17 @@ h3 {
   height: 660px;
 }
 
+
+#skick {
+  background-color: #EEE5E9;
+}
+
 h2 {
   text-align: center;
 }
 
 .modal-title {
   font-size: 30px;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: left;
 }
 
 .inspiration {
@@ -96,12 +93,39 @@ th, td {
   transition: 1000ms
 }
 
- ul {
+
+#content {
+  margin: 40px auto;
+  text-align: center;
+  width: 600px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+}
+
+.Image {
+  background-color: #16a085;
+
+}
+
+ul {
      list-style-type: none;
      margin: 0;
      padding: 0;
      overflow: hidden;
-     background-color: #333;
+     background-color: #fff;
  }
 
  li {
@@ -149,6 +173,7 @@ th, td {
 
 #contac {
   height: 660px;
+  background-color: #EEE5E9;
 }
 
 #index {
