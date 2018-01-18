@@ -14,11 +14,25 @@ body{
   top: 0px;
   background-image: url(../img/background1.jpe
     g);
+  color: white;
+}
+.pozy {
+  color: white;
 }
 
+/*#pee {
+  color: white;
+}*/
+
 #bakimage {
-  background-color: #EEE5E9;
-  background-image: url(../img/back1.jpg)
+  background-color: #000;
+  background:  url(../img/lap1.jpg) no-repeat center top;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
 }
 
 #intro {
@@ -52,13 +66,13 @@ h3 {
 
 
 #skilla {
-  background-color: #90A4AE;
+  background-color: #CACC90;
   height: 660px;
 }
 
 
 #skick {
-  background-color: #EEE5E9;
+  background-color: #fff;
 }
 
 h2 {
@@ -173,7 +187,7 @@ ul {
 
 #contac {
   height: 600px;
-  background-color: #EEE5E9;
+  background-color: #fff;
 }
 
 #index {
@@ -322,20 +336,7 @@ height:  560px;
     width: 100%;
 
   }
-  /*.thumbnail {
-      position: relative;
 
-  }*/
-  /*.thumbnail:hover{
-    /*opacity: 0.7;*/
-    /*font-size: 30px;
-    font-weight: 500;
-    font-family:cursive;
-    font-style: oblique;*/
-    /*background-color: #333;*/
-
-
-  /*}*/
   .dinner{
     background-image: url(../assets/img/dinner.jpg);
     background-size: cover;
@@ -382,7 +383,7 @@ input[type=texts]:focus {
 }
 
 nav {
-    background: #1E1E1E !important;
+    background: #CACC90 !important;
     font-size: 18px;
     color: white !important;
 }
