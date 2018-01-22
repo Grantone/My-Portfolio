@@ -15,14 +15,32 @@ body{
   background-image: url(../img/background1.jpe
     g);
   color: white;
+  margin-left: 500px;
 }
 .pozy {
   color: white;
 }
 
 #footaf {
-  background-color: ;
+  background-color: #17202A;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  border-radius: 0px;
+  width: 1250px;
 }
+
+img {
+    /*border-radius: 50%;*/
+    text-align: right;
+    background-position: center center;
+
+}
+
+
 
 /*#pee {
   color: white;
@@ -73,7 +91,7 @@ h3 {
 }
 
 #skilla {
-  background-color: #CACC90;
+  background-color: #F2F3F4;
   height: 660px;
 }
 
@@ -390,7 +408,7 @@ input[type=texts]:focus {
 }
 
 nav {
-    background: #CACC90 !important;
+    background: #17202A !important;
     font-size: 18px;
     color: white !important;
 }
