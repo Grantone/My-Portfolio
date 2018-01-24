@@ -55,6 +55,7 @@ img {
   background-size: cover;
   -o-background-size: cover;
   background-position: center center;
+  width: 1250px;
 }
 
 #intro {
@@ -99,6 +100,12 @@ h3 {
 #skilla {
   background-color: #F2F3F4;
   height: 660px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  width:
 }
 
 
@@ -339,7 +346,7 @@ ul {
 }
 
 .inspire{
-margin-left: 40px;
+margin-left:px;
 height:  560px;
 
 }
@@ -544,7 +551,7 @@ input[type=submit]:hover {
 }
 
 .container {
-    border-radius: 5px;
+    border-radius: 0px;
     background-color: #fff;
-    padding: 20px;
+    padding: px;
 }
