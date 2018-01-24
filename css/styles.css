@@ -224,8 +224,14 @@ ul {
  }
 
 #contac {
-  height: 600px;
+  height: 450px;
   background-color: #fff;
+  background-image: url(../img/footer.jpg);
+  color: white;
+  width: 1250px;
+  margin-left: -55px;
+  margin-right: 0px;
+
 }
 
 #index {
