@@ -42,9 +42,9 @@ img {
 
 
 
-/*#pee {
+#pee {
   color: white;
-}*/
+}
 
 #bakimage {
   background-color: #000;
@@ -224,7 +224,7 @@ ul {
  }
 
 #contac {
-  height: 450px;
+  height:;
   background-color: #17202A;
   background-image: url(../img/fu.jpg);
   color: white;
